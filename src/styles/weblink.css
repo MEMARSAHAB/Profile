@@ -1,0 +1,41 @@
+.links {
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid white;
+  border-width: 2px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  background-color: black;
+  transition: all 0.2s;
+  color: white;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: #b5d7f7;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .links {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background-color: black;
+    transition: all 0.2s;
+    color: white;
+  }
+}
